@@ -3,6 +3,7 @@ CREATE TABLE infrastructure1.operating_system
     uuid uuid NOT NULL,
     name text NOT NULL,
     PRIMARY KEY (uuid),
+    CONSTRAINT uuid UNIQUE (uuid),
     CONSTRAINT name UNIQUE (name)
 );
 
