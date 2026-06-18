@@ -1,1 +1,1 @@
-# infrastructuredb
+# InfrastructureDB
